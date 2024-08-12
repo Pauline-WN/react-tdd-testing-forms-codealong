@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from 'react';
 
 function App() {
   const [pepperoniIsChecked, setPepperoniIsChecked] = useState(false);
@@ -26,3 +26,4 @@ function App() {
 }
 
 export default App;
+
